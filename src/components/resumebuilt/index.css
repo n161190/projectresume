@@ -1,0 +1,141 @@
+/* Write your CSS here */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+@media screen and (max-width: 1600px) {
+  .container {
+    background-color: #ff8080;
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    color: #000080;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .con5 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .icon-container {
+    background-color: #000080;
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    margin: 10px;
+    padding-top: 14px;
+    padding-bottom: 18px;
+    padding-right: 18px;
+    padding-left: 18px;
+    color: #5a7184;
+    font-size: 20px;
+  }
+
+  .icon {
+    background-color: #ff8080;
+    border-width: 4px;
+    border-color: #000080;
+    border-style: solid;
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    margin: 10px;
+    padding-top: 14px;
+    padding-bottom: 18px;
+    padding-right: 18px;
+    padding-left: 18px;
+    color: #5a7184;
+    font-size: 20px;
+  }
+
+  .con1 {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hr {
+    color: #000080;
+  }
+
+  .con2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .addres {
+    margin-left: 5px;
+    margin-right: 20px;
+  }
+
+  .work1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .skill1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .skill {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .skill2 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+  }
+
+  .dot {
+    font-size: 30px;
+    line-height: 0px;
+    letter-spacing: 3px;
+    font-weight: bold;
+  }
+
+  .dots {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .work {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .work1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .edu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .edu1 {
+    display: flex;
+    flex-direction: row;
+  }
+}
